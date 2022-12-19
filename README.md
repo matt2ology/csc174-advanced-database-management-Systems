@@ -2,11 +2,7 @@
 
 01/23/2023 - 05/12/2023
 
-Class: CSC 174-02
-
 Days/Times: MoWeFr 11:00AM - 11:50AM
-
-Room: Riverside Hall 2010
 
 Instructor: Ying Jin
 
