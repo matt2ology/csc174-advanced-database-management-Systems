@@ -17,8 +17,10 @@ DROP FUNCTION IF EXISTS Course_Instructor;
 
 -- Create FUNCTION
 
--- Return 1 row in subquery
-
+/* Function Course_Instructor
+ * Input parameter : course name
+ * Return : Instructor name
+*/
 DELIMITER $$
 CREATE FUNCTION Course_Instructor (course_name VARCHAR(30))
 RETURNS VARCHAR(20)
@@ -26,6 +28,8 @@ BEGIN
     DECLARE instructor_name VARCHAR(20);
     SELECT InstructorName INTO instructor_name
     FROM Instructor
+    -- so we can use the CourseName input parameter in the
+    -- WHERE clause of the outer query to return the InstructorName from the Instructor table
     WHERE InstructorID = (
         SELECT InstructorID
         FROM Course
