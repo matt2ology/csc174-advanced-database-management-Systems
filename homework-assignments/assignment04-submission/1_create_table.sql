@@ -79,3 +79,12 @@ FOREIGN KEY (RoomNo, Building) REFERENCES Classroom(RoomNo, Building));
 /* Check that tables were created */
 
 SHOW TABLES; -- Expect 8 tables in total in the database
+
+DESC Student
+DESC TA
+DESC Course
+DESC Enrolled
+DESC Instructor
+DESC Classroom
+DESC OnlineCourse
+DESC InPersonCourse

@@ -1,5 +1,7 @@
 # Matthew Mendoza - Assignment 04
 
+CSC 174 - Section 02
+
 - [Matthew Mendoza - Assignment 04](#matthew-mendoza---assignment-04)
   - [Section 4 - Function](#section-4---function)
     - [Function Call](#function-call)
