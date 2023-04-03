@@ -6,7 +6,7 @@ CSC 174 - Section 02
   - [Section 4 - Function](#section-4---function)
     - [Function Call](#function-call)
     - [Function Result](#function-result)
-  - [Section 4 - Procedure](#section-4---procedure)
+  - [Section 5 - Procedures](#section-5---procedures)
   - [Procedure : `Get_TA`](#procedure--get_ta)
     - [Procedure : `Get_TA` Call](#procedure--get_ta-call)
     - [Procedure : `Get_TA` Result](#procedure--get_ta-result)
@@ -77,7 +77,7 @@ SELECT Course_Instructor('Corporate Entrepreneurship'); -- Expects : "Cassandra 
 
 ![Courses "Cassandra Charon" teaches](assignment04-readme-attachments/section04_function_call_result05-cassandra-choron.png)
 
-## Section 4 - Procedure
+## Section 5 - Procedures
 
 ## Procedure : `Get_TA`
 
@@ -167,6 +167,7 @@ CALL GetStudentCourse('3300015'); -- Corporate Entrepreneurship -> Expect 1 Stud
 ### Procedure : `GetStudentCourse` Result
 
 ![Result of `CALL GetStudentCourse('3300001')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300001.png)
+
 ![Result of `CALL GetStudentCourse('3300002')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300002.png)
 
 ![Result of `CALL GetStudentCourse('3300003')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300003.png)
