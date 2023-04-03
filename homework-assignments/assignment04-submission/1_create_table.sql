@@ -28,7 +28,7 @@ FOREIGN KEY (SSN) REFERENCES Student(SSN));
 
 CREATE TABLE Course
 (CourseNo VARCHAR(7),
-CourseName VARCHAR(20),
+CourseName VARCHAR(30),
 NoOfStudents INTEGER,
 InstructorID VARCHAR(10),
 TASSN CHAR(9),
