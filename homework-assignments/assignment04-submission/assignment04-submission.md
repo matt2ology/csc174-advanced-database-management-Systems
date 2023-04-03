@@ -3,9 +3,9 @@
 CSC 174 - Section 02
 
 - [Matthew Mendoza - Assignment 04](#matthew-mendoza---assignment-04)
-  - [Section 4 - Function](#section-4---function)
-    - [Function Call](#function-call)
-    - [Function Result](#function-result)
+  - [Section 4 - Function : `Course_Instructor`](#section-4---function--course_instructor)
+    - [Function `Course_Instructor` Call](#function-course_instructor-call)
+    - [Function `Course_Instructor` Result](#function-course_instructor-result)
   - [Section 5 - Procedures](#section-5---procedures)
   - [Procedure : `Get_TA`](#procedure--get_ta)
     - [Procedure : `Get_TA` Call](#procedure--get_ta-call)
@@ -19,7 +19,7 @@ A PDF file include screenshots (in the following order):
 1) Call the function and the results displayed.
 2) Call the procedures and the results displayed.
 
-## Section 4 - Function
+## Section 4 - Function : `Course_Instructor`
 
 ```sql
 /* Function Course_Instructor
@@ -45,7 +45,7 @@ END $$
 DELIMITER ;
 ```
 
-### Function Call
+### Function `Course_Instructor` Call
 
 ```sql
 SELECT Course_Instructor('Marketing Analytics');        -- Expects : "Byleth Eisner"
@@ -65,7 +65,7 @@ SELECT Course_Instructor('Venture Growth Strategies');  -- Expects : "Cassandra 
 SELECT Course_Instructor('Corporate Entrepreneurship'); -- Expects : "Cassandra Charon"
 ```
 
-### Function Result
+### Function `Course_Instructor` Result
 
 ![Courses "Byleth Eisner" teaches](assignment04-readme-attachments/section04_function_call_result01-byleth-eisner.png)
 
