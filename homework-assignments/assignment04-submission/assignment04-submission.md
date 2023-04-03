@@ -66,9 +66,13 @@ SELECT Course_Instructor('Corporate Entrepreneurship'); -- Expects : "Cassandra 
 ### Function Result
 
 ![Courses "Byleth Eisner" teaches](assignment04-readme-attachments/section04_function_call_result01-byleth-eisner.png)
+
 ![Courses "Hanneman von Essar" teaches](assignment04-readme-attachments/section04_function_call_result02-hanneman-von-essar.png)
+
 ![Courses "Manuela Casagranda" teaches](assignment04-readme-attachments/section04_function_call_result03-manuela-casagrada.png)
+
 ![Courses "Shamir Nevrand" teaches](assignment04-readme-attachments/section04_function_call_result04-shamir-nevrand.png)
+
 ![Courses "Cassandra Charon" teaches](assignment04-readme-attachments/section04_function_call_result05-cassandra-choron.png)
 
 ## Section 4 - Procedure
@@ -108,9 +112,13 @@ CALL Get_TA("0900000005"); -- Expected : Claude  and Dimitri and Edelgard
 ### Procedure : `Get_TA` Result
 
 ![Result of `CALL Get_TA("0900000001")`](assignment04-readme-attachments/result_call_get_ta_0900000001.png)
+
 ![Result of `CALL Get_TA("0900000002")`](assignment04-readme-attachments/result_call_get_ta_0900000002.png)
+
 ![Result of `CALL Get_TA("0900000003")`](assignment04-readme-attachments/result_call_get_ta_0900000003.png)
+
 ![Result of `CALL Get_TA("0900000004")`](assignment04-readme-attachments/result_call_get_ta_0900000004.png)
+
 ![Result of `CALL Get_TA("0900000005")`](assignment04-readme-attachments/result_call_get_ta_0900000005.png)
 
 ## Procedure : `GetStudentCourse`
@@ -158,16 +166,29 @@ CALL GetStudentCourse('3300015'); -- Corporate Entrepreneurship -> Expect 1 Stud
 
 ![Result of `CALL GetStudentCourse('3300001')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300001.png)
 ![Result of `CALL GetStudentCourse('3300002')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300002.png)
+
 ![Result of `CALL GetStudentCourse('3300003')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300003.png)
+
 ![Result of `CALL GetStudentCourse('3300004')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300004.png)
+
 ![Result of `CALL GetStudentCourse('3300005')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300005.png)
+
 ![Result of `CALL GetStudentCourse('3300006')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300006.png)
+
 ![Result of `CALL GetStudentCourse('3300007')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300007.png)
+
 ![Result of `CALL GetStudentCourse('3300008')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300008.png)
+
 ![Result of `CALL GetStudentCourse('3300009')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300009.png)
+
 ![Result of `CALL GetStudentCourse('3300010')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300010.png)
+
 ![Result of `CALL GetStudentCourse('3300011')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300011.png)
+
 ![Result of `CALL GetStudentCourse('3300012')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300012.png)
+
 ![Result of `CALL GetStudentCourse('3300013')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300013.png)
+
 ![Result of `CALL GetStudentCourse('3300014')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300014.png)
+
 ![Result of `CALL GetStudentCourse('3300015')`](assignment04-readme-attachments/result_call_procedure_getStudentCourse_3300015.png)
