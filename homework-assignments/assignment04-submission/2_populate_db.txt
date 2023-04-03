@@ -1,96 +1,27 @@
 /* Creating data for tables Student, TA, Course, Enrolled, Instructor, Classroom, OnlineCourse, InPersonCourse */
 
-/* UID
- TA (SSN) - 9 chars : 2001xxxxx
- Student (SSN) - 9 chars : 19xxxxxxx
- Instructor (InstructorID) - 10 chars : 09xxxxxxxx
- Course (CourseNo) - 7 chars : 03xxxxxxx
- OnlineCourse (CourseNo) - 7 chars : 03xxxxxxx
- InPersonCourse (CourseNo) - 7 chars : 03xxxxxxx
- Enrolled (SSN, CourseNo) - 9 chars + 7 chars : xxxxxxxxx
- Classroom (RoomNo, Building) - 2 chars + 10 chars : xxxxxxxxx
- */
+/* Create Students */
 
-/* Create Students -- SSN : 19xxxxxxx */
--- Student SSN : 190000001 - Haruhi Fujioka
--- Student SSN : 190000002 - Tamaki Suoh
--- Student SSN : 190000003 - Kyoya Ootori
--- Student SSN : 190000004 - Mitsukuni Haninozuka
--- Student SSN : 190000005 - Takashi Morinozuka
--- Student SSN : 190000006 - Ferdinand von Aegir
--- Student SSN : 190000007 - Bernadetta von Varley
--- Student SSN : 190000008 - Dorothea Arnault
--- Student SSN : 190000009 - Felix Hugo Fraldarius
--- Student SSN : 190000010 - Mercedes von Bartels
--- Student SSN : 190000011 - Annette Fantine Dominic
--- Student SSN : 190000012 - Lysithea von Ordelia
--- Student SSN : 190000013 - Marianne von Edmund
--- Student SSN : 190000014 - Raphael Kirsten
--- Student SSN : 190000015 - Yuri Leclerc
--- TA TASSN    : 200100001 - Claude von Riegan
--- TA TASSN    : 200100002 - Dimitri Alexandre Blaiddyd
--- TA TASSN    : 200100003 - Edelgard von Hresvelg
-
-/* Student SSN : 190000001 - Haruhi Fujioka
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytics
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000001,'Haruhi Fujioka','7098 Prince Ave','haruhi_fujioka@hostclub.com');
 
-/* Student SSN : 190000002 - Tamaki Suoh
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000002,'Tamaki Suoh','743 Arlington Lane','tamaki_suoh@hostclub.com');
 
-/* Student SSN : 190000003 - Kyoya Ootori
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000003,'Kyoya Ootori','756 Pennington Road','kyoya_ootori@hostclub.com');
 
-/* Student SSN : 190000004 - Mitsukuni Haninozuka
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000004,'Mitsukuni Haninozuka','142 Old Vernon St','mitsukuni_nozuka@hostclub.com');
 
-/* Student SSN : 190000005 - Takashi Morinozuka
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Managemen
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -98,40 +29,16 @@ VALUES
 
 /* BLACK EAGLES Students */
 
-/* Student SSN : 190000006 - Ferdinand von Aegir
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytics
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000006,'Ferdinand von Aegir','123 House Aegir','ferdinand_von_aegir@aegir.com');
 
-/* Student SSN : 190000007 - Bernadetta von Varley
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000007,'Bernadetta von Varley','123 House Varley','bernie@varley.com');
 
-/* Student SSN : 190000008 - Dorothea Arnault
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytics
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -139,40 +46,16 @@ VALUES
 
 /* Blue Lions Students */
 
-/* Student SSN : 190000009 - Felix Hugo Fraldarius
- IS Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000009,'Felix Hugo Fraldarius','123 House Fraldarius','felix@fraldarius.com');
 
-/* Student SSN : 190000010 - Mercedes von Bartels
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytic
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000010,'Mercedes von Bartels','321 Garreg Mach Monastery','mercie@garregmach.com');
 
-/* Student SSN : 190000011 - Annette Fantine Dominic
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytic
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -180,40 +63,16 @@ VALUES
 
 /* Golden Deer Students */
 
-/* Student SSN : 190000012 - Lysithea von Ordelia
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000012,'Lysithea von Ordelia','9245 House Ordelia','lys@ordelia.com');
 
-/* Student SSN : 190000013 - Marianne von Edmund
- IS Enrolled In -- CourseNo : 3300003 - Computer Forensics
- IS Enrolled In -- CourseNo : 3300004 - Combinatorics
- IS Enrolled In -- CourseNo : 3300005 - Critical Thinking
- IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (190000013,'Marianne von Edmund','8254 House Edmund','Marianne@Edmund.com');
 
-/* Student SSN : 190000014 - Raphael Kirsten
- IS Enrolled In -- CourseNo : 3300001 - Marketing Analytics
- IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- IS Enrolled In -- CourseNo : 3300008 - Microbiology
- IS Enrolled In -- CourseNo : 3300009 - Argumentation
- IS Enrolled In -- CourseNo : 3300010 - Operations Management
- IS Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -221,14 +80,6 @@ VALUES
 
 /* Ashen Wolves */
 
-/* Student SSN : 190000015 - Yuri Leclerc
- Is Enrolled In -- CourseNo : 3300001 - Marketing Analytics
- Is Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- Is Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- Is Enrolled In -- CourseNo : 3300010 - Operations Management
- Is Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
- Is Enrolled In -- CourseNo : 3300012 - Investments
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -236,65 +87,23 @@ VALUES
 
 /* Three Houses Leaders Teacher Assistants (TA's) */ -- SSN (TA) - 2001xxxxx
 
-/* Student TA SSN : 200100001 - Claude von Riegan
- Is Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- Is Enrolled In -- CourseNo : 3300004 - Combinatorics
- Is Enrolled In -- CourseNo : 3300005 - Critical Thinking
- Is Enrolled In -- CourseNo : 3300006 - Leadership and Management
- Is Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
- Is Enrolled In -- CourseNo : 3300015 - Corporate Entrepreneurship
- TAs For -- CourseNo : 3300001 - Marketing Analytics
- TAs For -- CourseNo : 3300003 - Computer Forensics
- TAs For -- CourseNo : 3300009 - Argumentation
- TAs For -- CourseNo : 3300011 - Principles Of Marketing
- TAs For -- CourseNo : 3300013 - Sustainability Business
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (200100001,'Claude von Riegan','4592 Leicester Federation','claude@leicester.com');
 
-/* Student TA SSN : 200100002 - Dimitri Alexandre Blaiddyd
- Is Enrolled In -- CourseNo : 3300002 - Intro to Prob Theory
- Is Enrolled In -- CourseNo : 3300003 - Computer Forensics
- Is Enrolled In -- CourseNo : 3300006 - Leadership and Management
- Is Enrolled In -- CourseNo : 3300008 - Microbiology
- Is Enrolled In -- CourseNo : 3300009 - Argumentation
- Is Enrolled In -- CourseNo : 3300013 - Sustainability Business
- TAs For -- CourseNo : 3300004 - Combinatorics 
- TAs For -- CourseNo : 3300007 - Nursing Care Of Adults
- TAs For -- CourseNo : 3300008 - Microbiology
- TAs For -- CourseNo : 3300010 - Operations Management
- TAs For -- CourseNo : 3300014 - Venture Growth Strategies
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (200100002,'Dimitri Alexandre Blaiddyd','1462 Garreg Mach Monastery','the_tempest_king@fhirdiad.com');
 
-/* Student TA SSN : 200100003 - Edelgard von Hresvelg
- Is Enrolled In -- CourseNo : 3300001 - Marketing Analytics 
- Is Enrolled In -- CourseNo : 3300005 - Critical Thinking
- Is Enrolled In -- CourseNo : 3300006 - Leadership and Management
- Is Enrolled In -- CourseNo : 3300009 - Argumentation
- Is Enrolled In -- CourseNo : 3300010 - Operations Management
- Is Enrolled In -- CourseNo : 3300014 - Venture Growth Strategies
- TAs For -- CourseNo : 3300002 - Intro to Prob Theory
- TAs For -- CourseNo : 3300005 - Critical Thinking 
- TAs For -- CourseNo : 3300006 - Leadership and Management
- TAs For -- CourseNo : 3300012 - Investments
- TAs For -- CourseNo : 3300015 - Corporate Entrepreneurship
-*/
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
 (200100003,'Edelgard von Hresvelg','8756 Enbarr','flame_emperor@adrestian.com');
 
-/* Create TAs -- TASSN : 2001xxxxx */
--- TA TASSN : 200100001 - Claude von Riegan
--- TA TASSN : 200100002 - Dimitri Alexandre Blaiddyd
--- TA TASSN : 200100003 - Edelgard von Hresvelg
- 
+/* Create TAs */
+
 INSERT INTO TA
 (SSN, Salary)
 VALUES
@@ -311,21 +120,6 @@ VALUES
 (200100003, 30000); -- Edelgard von Hresvelg
 
 /* Create Courses */
--- CourseNo : 3300001 - Marketing Analytics
--- CourseNo : 3300002 - Intro to Prob Theory
--- CourseNo : 3300003 - Computer Forensics
--- CourseNo : 3300004 - Combinatorics
--- CourseNo : 3300005 - Critical Thinking
--- CourseNo : 3300006 - Leadership and Management
--- CourseNo : 3300007 - Nursing Care Of Adults
--- CourseNo : 3300008 - Microbiology
--- CourseNo : 3300009 - Argumentation
--- CourseNo : 3300010 - Operations Management
--- CourseNo : 3300011 - Principles Of Marketing
--- CourseNo : 3300012 - Investments
--- CourseNo : 3300013 - Sustainability Business
--- CourseNo : 3300014 - Venture Growth Strategies
--- CourseNo : 3300015 - Corporate Entrepreneurship
 
 /*
  CourseNo : 3300001 - Marketing Analytics
