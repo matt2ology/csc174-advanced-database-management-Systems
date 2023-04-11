@@ -16,28 +16,28 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 
 ## Hw 1 : Mapping EER Diagram
 
-- [Assignment 01 Report](homework-assignments\assignment01-submission.pdf)
+- [Assignment 01 Report](assignment01-mapping-eer-diagram\assignment01-submission.pdf)
 
 ## Hw 2 : Mapping EER into Relational Model
 
-- [Assignment 02 Report](homework-assignments\assignment02-submission.pdf)
+- [Assignment 02 Report](assignment02-mapping-eer-to-relational-model\assignment02-submission.pdf)
 
 ## Hw 3 : Creating tables, views, and populating the database
 
-- [Assignment 03 Report](homework-assignments\assignment03-submission.pdf)
-- [Create Table SQL File](homework-assignments\assignment03-submission\1_create_table.sql)
-- [Populate Database SQL File](homework-assignments\assignment03-submission\2_populate_db.sql)
-- [Create View SQL File](homework-assignments\assignment03-submission\3_view.sql)
-- [Drop All Tables and Views SQL File](homework-assignments\assignment03-submission\4_drop.sql)
+- [Assignment 03 Report]()
+- [Create Table SQL File](assignment03-create-tables-views\1_create_table.sql)
+- [Populate Database SQL File](assignment03-create-tables-views\2_populate_db.sql)
+- [Create View SQL File](assignment03-create-tables-views\2_populate_db.txt)
+- [Drop All Tables and Views SQL File](assignment03-create-tables-views\4_drop.sql)
 
 ## Hw 4 : Creating SQL Functions and Procedures
 
-- [Assignment 04 Report](homework-assignments\assignment04-submission\assignment04-submission.pdf)
-- [Create Table SQL File](homework-assignments\assignment04-submission\1_create_table.sql)
-- [Populate Database SQL File](homework-assignments\assignment04-submission\2_populate_db.sql)
-- [Create View SQL File](homework-assignments\assignment04-submission\3_view.sql)
-- [Create Function SQL File](homework-assignments\assignment04-submission\4_function.sql)
-- [Create Procedures SQL File](homework-assignments\assignment04-submission\5_proc.sql)
-- [Drop All Tables and Views SQL File](homework-assignments\assignment04-submission\6_drop_all.sql)
+- [Assignment 04 Report](assignment04-create-sql-functions-procedures\assignment04-submission.pdf)
+- [Create Table SQL File](assignment04-create-sql-functions-procedures\1_create_table.sql)
+- [Populate Database SQL File](assignment04-create-sql-functions-procedures\2_populate_db.sql)
+- [Create View SQL File](assignment04-create-sql-functions-procedures\3_view.sql)
+- [Create Function SQL File](assignment04-create-sql-functions-procedures\4_function.sql)
+- [Create Procedures SQL File](assignment04-create-sql-functions-procedures\5_proc.sql)
+- [Drop All Tables and Views SQL File](assignment04-create-sql-functions-procedures\6_drop_all.sql)
 
 ## Hw 5 : Creating Triggers in SQL
