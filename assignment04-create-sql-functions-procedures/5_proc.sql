@@ -74,20 +74,20 @@ DELIMITER ;
 -- Test procedure GetStudentCourse with SELECT statements to verify it works as expected
 
 CALL GetStudentCourse('3300001'); -- Marketing Analytics -> Expect 8 students
+-- CourseNo : 3300001 -> Expects Student : 190000001 - Haruhi Fujioka
+-- CourseNo : 3300001 -> Expects Student : 190000006 - Ferdinand von Aegir
+-- CourseNo : 3300001 -> Expects Student : 190000008 - Dorothea Arnault
 -- CourseNo : 3300001 -> Expects Student : 190000010 - Mercedes von Bartels
 -- CourseNo : 3300001 -> Expects Student : 190000011 - Annette Fantine Dominic
--- CourseNo : 3300001 -> Expects Student : 190000006 - Ferdinand von Aegir
--- CourseNo : 3300001 -> Expects Student : 190000001 - Haruhi Fujioka
--- CourseNo : 3300001 -> Expects Student : 190000008 - Dorothea Arnault
 -- CourseNo : 3300001 -> Expects Student : 190000014 - Raphael Kirsten
 -- CourseNo : 3300001 -> Expects Student : 190000015 - Yuri Leclerc
 -- CourseNo : 3300001 -> Expects Student : 200100003 - Edelgard von Hresvelg
 
 CALL GetStudentCourse('3300002'); -- Intro to Prob Theory -> Expect 9 students
--- CourseNo : 3300002 -> Expects Student : 190000003 - Kyoya Ootori
--- CourseNo : 3300002 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300002 -> Expects Student : 190000001 - Haruhi Fujioka
+-- CourseNo : 3300002 -> Expects Student : 190000003 - Kyoya Ootori
 -- CourseNo : 3300002 -> Expects Student : 190000005 - Takashi Morinozuka
+-- CourseNo : 3300002 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300002 -> Expects Student : 190000008 - Dorothea Arnault
 -- CourseNo : 3300002 -> Expects Student : 190000009 - Felix Hugo Fraldarius
 -- CourseNo : 3300002 -> Expects Student : 190000015 - Yuri Leclerc
@@ -95,9 +95,9 @@ CALL GetStudentCourse('3300002'); -- Intro to Prob Theory -> Expect 9 students
 -- CourseNo : 3300002 -> Expects Student : 200100002 - Dimitri Alexandre Blaiddyd
 
 CALL GetStudentCourse('3300003'); -- Computer Forensics -> Expect 7 students
+-- CourseNo : 3300003 -> Expects Student : 190000001 - Haruhi Fujioka
 -- CourseNo : 3300003 -> Expects Student : 190000002 - Tamaki Suoh
 -- CourseNo : 3300003 -> Expects Student : 190000003 - Kyoya Ootori
--- CourseNo : 3300003 -> Expects Student : 190000001 - Haruhi Fujioka
 -- CourseNo : 3300003 -> Expects Student : 190000008 - Dorothea Arnault
 -- CourseNo : 3300003 -> Expects Student : 190000010 - Mercedes von Bartels
 -- CourseNo : 3300003 -> Expects Student : 190000013 - Marianne von Edmund
@@ -106,8 +106,8 @@ CALL GetStudentCourse('3300003'); -- Computer Forensics -> Expect 7 students
 CALL GetStudentCourse('3300004'); -- Combinatorics -> Expect 9 students
 -- CourseNo : 3300004 -> Expects Student : 190000002 - Tamaki Suoh
 -- CourseNo : 3300004 -> Expects Student : 190000003 - Kyoya Ootori
--- CourseNo : 3300004 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300004 -> Expects Student : 190000005 - Takashi Morinozuka
+-- CourseNo : 3300004 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300004 -> Expects Student : 190000007 - Bernadetta von Varley
 -- CourseNo : 3300004 -> Expects Student : 190000009 - Felix Hugo Fraldarius
 -- CourseNo : 3300004 -> Expects Student : 190000011 - Annette Fantine Dominic
@@ -125,9 +125,9 @@ CALL GetStudentCourse('3300005'); -- Critical Thinking -> Expect 8 students
 -- CourseNo : 3300005 -> Expects Student : 200100003 - Edelgard von Hresvelg
 
 CALL GetStudentCourse('3300006'); -- Leadership and Management -> Expect 11 students
--- CourseNo : 3300006 -> Expects Student : 190000005 - Takashi Morinozuka
 -- CourseNo : 3300006 -> Expects Student : 190000003 - Kyoya Ootori
 -- CourseNo : 3300006 -> Expects Student : 190000004 - Mitsukuni Haninozuka
+-- CourseNo : 3300006 -> Expects Student : 190000005 - Takashi Morinozuka
 -- CourseNo : 3300006 -> Expects Student : 190000007 - Bernadetta von Varley
 -- CourseNo : 3300006 -> Expects Student : 190000009 - Felix Hugo Fraldarius
 -- CourseNo : 3300006 -> Expects Student : 190000011 - Annette Fantine Dominic
@@ -138,9 +138,9 @@ CALL GetStudentCourse('3300006'); -- Leadership and Management -> Expect 11 stud
 -- CourseNo : 3300006 -> Expects Student : 200100003 - Edelgard von Hresvelg
 
 CALL GetStudentCourse('3300007'); -- Nursing Care Of Adults -> Expect 9 students
--- CourseNo : 3300007 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300007 -> Expects Student : 190000001 - Haruhi Fujioka
 -- CourseNo : 3300007 -> Expects Student : 190000004 - Mitsukuni Haninozuka
+-- CourseNo : 3300007 -> Expects Student : 190000006 - Ferdinand von Aegir
 -- CourseNo : 3300007 -> Expects Student : 190000007 - Bernadetta von Varley
 -- CourseNo : 3300007 -> Expects Student : 190000008 - Dorothea Arnault
 -- CourseNo : 3300007 -> Expects Student : 190000010 - Mercedes von Bartels
@@ -170,8 +170,8 @@ CALL GetStudentCourse('3300009'); -- Argumentation -> Expect 10 students
 -- CourseNo : 3300009 -> Expects Student : 200100003 - Edelgard von Hresvelg
 
 CALL GetStudentCourse('3300010'); -- Operations Management -> Expect 11 students
--- CourseNo : 3300010 -> Expects Student : 190000002 - Tamaki Suoh
 -- CourseNo : 3300010 -> Expects Student : 190000001 - Haruhi Fujioka
+-- CourseNo : 3300010 -> Expects Student : 190000002 - Tamaki Suoh
 -- CourseNo : 3300010 -> Expects Student : 190000004 - Mitsukuni Haninozuka
 -- CourseNo : 3300010 -> Expects Student : 190000005 - Takashi Morinozuka
 -- CourseNo : 3300010 -> Expects Student : 190000007 - Bernadetta von Varley
