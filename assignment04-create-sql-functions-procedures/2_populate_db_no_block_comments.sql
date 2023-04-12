@@ -106,77 +106,77 @@ VALUES
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300001, 'Marketing Analytics', 90, 0900000001, 200100001);
+(3300001, 'Marketing Analytics', 8, 0900000001, 200100001);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300002, 'Intro to Prob Theory', 33, 0900000001, 200100003);
+(3300002, 'Intro to Prob Theory', 9, 0900000001, 200100003);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300003, 'Computer Forensics', 23, 0900000001, 200100001);
+(3300003, 'Computer Forensics', 7, 0900000001, 200100001);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300004, 'Combinatorics', 39, 0900000002, 200100002);
+(3300004, 'Combinatorics', 9, 0900000002, 200100002);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300005, 'Critical Thinking', 39, 0900000002, 200100003);
+(3300005, 'Critical Thinking', 8, 0900000002, 200100003);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300006, 'Leadership and Management', 39, 0900000002, 200100003);
+(3300006, 'Leadership and Management', 11, 0900000002, 200100003);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300007, 'Nursing Care Of Adults', 39, 0900000003, 200100002);
+(3300007, 'Nursing Care Of Adults', 9, 0900000003, 200100002);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300008, 'Microbiology', 39, 0900000003, 200100002);
+(3300008, 'Microbiology', 7, 0900000003, 200100002);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300009, 'Argumentation', 39, 0900000003, 200100001);
+(3300009, 'Argumentation', 10, 0900000003, 200100001);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300010, 'Operations Management', 39, 0900000004, 200100002);
+(3300010, 'Operations Management', 11, 0900000004, 200100002);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300011, 'Principles Of Marketing', 39, 0900000004, 200100001);
+(3300011, 'Principles Of Marketing', 7, 0900000004, 200100001);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300012, 'Investments', 39, 0900000004, 200100003);
+(3300012, 'Investments', 9, 0900000004, 200100003);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300013, 'Sustainability Business', 39, 0900000005, 200100001);
+(3300013, 'Sustainability Business', 1, 0900000005, 200100001);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300014, 'Venture Growth Strategies', 39, 0900000005, 200100002);
+(3300014, 'Venture Growth Strategies', 1, 0900000005, 200100002);
 
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
-(3300015, 'Corporate Entrepreneurship', 39, 0900000005, 200100003);
+(3300015, 'Corporate Entrepreneurship', 1, 0900000005, 200100003);
 
 INSERT INTO Enrolled
 (SSN, CourseNo, GRADE)
