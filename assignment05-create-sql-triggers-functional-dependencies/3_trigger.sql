@@ -122,7 +122,7 @@ CourseNo = '3300010'; -- Operations Management
 /* 
  VALIDATION : check the current NoOfStudents in the Course,
  shows all students after Del_enrollment_number trigger is created.
- Expect 11 students in Operations Management after the 3 DELETEs above
+ Expect 11 students in Operations Management - 14 - 3 = 11 NoOfStudents.
 */
 
 -- CALL GetStudentCourse('3300010'); -- If procedure has been implemented
