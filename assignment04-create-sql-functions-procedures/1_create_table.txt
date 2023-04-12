@@ -2,7 +2,19 @@
 
 /* Check that we are starting from an Empty Set - No previous tables*/
 
+/* Drop TABLEs */
+
+DROP TABLE IF EXISTS Enrolled;
+DROP TABLE IF EXISTS Instructor;
+DROP TABLE IF EXISTS OnlineCourse;
+DROP TABLE IF EXISTS InPersonCourse;
+DROP TABLE IF EXISTS Course;
+DROP TABLE IF EXISTS TA;
+DROP TABLE IF EXISTS Student;
+DROP TABLE IF EXISTS Classroom;
+
 SHOW TABLES; -- Expect 0 tables in the database (Empty Set)
+
 
 /* Student Table
  Having CONSTRAINT StudentPK before PRIMARY KEY (SSN) is optional,
