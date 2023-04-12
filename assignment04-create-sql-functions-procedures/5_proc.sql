@@ -20,6 +20,11 @@
  TAs and students are returned by the procedures.
 */
 
+/* Drop PROCEDUREs */
+
+DROP PROCEDURE IF EXISTS Get_TA;
+DROP PROCEDURE IF EXISTS GetStudentCourse;
+
 /* Logic for procedure Get_TA
  Q: can you read VARCHAR as an INT?
  A: no, you cannot. You must convert it to an INT first.
