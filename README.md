@@ -40,4 +40,9 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 - [Create Procedures SQL File](assignment04-create-sql-functions-procedures\5_proc.sql)
 - [Drop All Tables and Views SQL File](assignment04-create-sql-functions-procedures\6_drop_all.sql)
 
-## Hw 5 : Creating Triggers in SQL
+## Hw 5 : Creating Triggers in SQL and Functional Dependencies
+
+- [Assignment 05 Report (part 1) - SQL Triggers](assignment05-create-sql-triggers-functional-dependencies/4_result.md)
+- [Create Table SQL File](assignment05-create-sql-triggers-functional-dependencies/1_create_table.sql)
+- [Populate Database SQL File](assignment05-create-sql-triggers-functional-dependencies/2_populate_db.sql)
+- [Trigger SQL File](assignment05-create-sql-triggers-functional-dependencies/3_trigger.sql)
