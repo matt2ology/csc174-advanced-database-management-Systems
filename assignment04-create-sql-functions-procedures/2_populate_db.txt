@@ -1056,3 +1056,19 @@ INSERT INTO InPersonCourse
 (CourseNo, RoomNo, Building, ClassTime)
 VALUES
 (3300015, 3003, 'RVR', '7:00 pm'); -- 3300015 - Corporate Entrepreneurship
+
+/* TESTING - VALIDATING */
+
+SELECT * FROM Classroom;
+SELECT * FROM Course;
+SELECT * FROM Enrolled;
+SELECT * FROM InPersonCourse;
+SELECT * FROM InPersonCourseView;
+SELECT * FROM Instructor;
+SELECT * FROM OnlineCourse;
+SELECT * FROM OnlineCourseView;
+SELECT * FROM Student_Grade_A;
+SELECT * FROM Student;
+SELECT * FROM TA_Course;
+SELECT * FROM TA;
+SELECT * FROM TAView;
