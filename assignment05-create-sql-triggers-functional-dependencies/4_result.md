@@ -142,7 +142,7 @@ SSN = '190000008' AND -- student 14 - Dorothea Arnault
 CourseNo = '3300010'; -- Operations Management
 ```
 
-![Removing 3 students](assignment05-readme-attachments/trigger_del_enrollment_number_02_adding_students.png)
+![Removing 3 students](assignment05-readme-attachments/trigger_del_enrollment_number_02_removing_students.png)
 
 ### `Del_enrollment_number` - Show `NoOfStudents` after removing 3 students
 
