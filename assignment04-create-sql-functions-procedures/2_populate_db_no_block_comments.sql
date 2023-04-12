@@ -883,3 +883,14 @@ SELECT * FROM Student;
 SELECT * FROM TA_Course;
 SELECT * FROM TA;
 SELECT * FROM TAView;
+
+SHOW TABLES; -- Expect 8 tables in total in the database
+
+DESC Student;
+DESC TA;
+DESC Course;
+DESC Enrolled;
+DESC Instructor;
+DESC Classroom;
+DESC OnlineCourse;
+DESC InPersonCourse;
