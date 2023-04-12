@@ -27,6 +27,8 @@ DROP FUNCTION IF EXISTS Course_Instructor;
 DROP VIEW IF EXISTS TAView;
 DROP VIEW IF EXISTS OnlineCourseView;
 DROP VIEW IF EXISTS InPersonCourseView;
+DROP VIEW IF EXISTS Student_Grade_A;
+DROP VIEW IF EXISTS TA_Course;
 
 /* Drop TABLEs */
 
