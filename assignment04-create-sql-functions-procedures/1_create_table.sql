@@ -80,11 +80,11 @@ FOREIGN KEY (RoomNo, Building) REFERENCES Classroom(RoomNo, Building));
 
 SHOW TABLES; -- Expect 8 tables in total in the database
 
-DESC Student
-DESC TA
-DESC Course
-DESC Enrolled
-DESC Instructor
-DESC Classroom
-DESC OnlineCourse
-DESC InPersonCourse
+DESC Student;
+DESC TA;
+DESC Course;
+DESC Enrolled;
+DESC Instructor;
+DESC Classroom;
+DESC OnlineCourse;
+DESC InPersonCourse;
