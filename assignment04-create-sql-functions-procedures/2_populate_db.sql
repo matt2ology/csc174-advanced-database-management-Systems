@@ -39,6 +39,7 @@
  IS Enrolled In -- CourseNo : 3300008 - Microbiology
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -52,6 +53,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -65,6 +67,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300006 - Leadership and Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -78,6 +81,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -91,6 +95,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -106,6 +111,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300007 - Nursing Care Of Adults
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -119,6 +125,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -132,6 +139,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300008 - Microbiology
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -147,6 +155,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -160,6 +169,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300009 - Argumentation
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -173,6 +183,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -188,6 +199,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -201,6 +213,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300009 - Argumentation
  IS Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -214,6 +227,7 @@ VALUES
  IS Enrolled In -- CourseNo : 3300010 - Operations Management
  IS Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -229,6 +243,7 @@ VALUES
  Is Enrolled In -- CourseNo : 3300011 - Principles Of Marketing
  Is Enrolled In -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -249,6 +264,7 @@ VALUES
  TAs For -- CourseNo : 3300011 - Principles Of Marketing
  TAs For -- CourseNo : 3300013 - Sustainability Business
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -267,6 +283,7 @@ VALUES
  TAs For -- CourseNo : 3300010 - Operations Management
  TAs For -- CourseNo : 3300014 - Venture Growth Strategies
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -285,6 +302,7 @@ VALUES
  TAs For -- CourseNo : 3300012 - Investments
  TAs For -- CourseNo : 3300015 - Corporate Entrepreneurship
 */
+
 INSERT INTO Student
 (SSN, StudentName, Address, Email)
 VALUES
@@ -332,6 +350,7 @@ VALUES
  InstructorID: 0900000001 - Byleth Eisner
  TA : 200100001 - Claude von Riegan
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -342,6 +361,7 @@ VALUES
  InstructorID: 0900000001 - Byleth Eisner
  TA : 200100003 - Edelgard von Hresvelg
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -352,6 +372,7 @@ VALUES
  InstructorID: 0900000001 - Byleth Eisner
  TA : 200100001 - Claude von Riegan
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -362,6 +383,7 @@ VALUES
  InstructorID: 0900000002 - Hanneman von Essar
  TA : 200100002 - Dimitri Alexandre Blaiddyd 
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -372,6 +394,7 @@ VALUES
  InstructorID: 0900000002 - Hanneman von Essar
  TA : 200100003 - Edelgard von Hresvelg
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -382,6 +405,7 @@ VALUES
  InstructorID: 0900000002 - Hanneman von Essar
  TA : 200100003 - Edelgard von Hresvelg
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -392,6 +416,7 @@ VALUES
  InstructorID: 0900000003 - Manuela Casagranda
  TA : 200100002 - Dimitri Alexandre Blaiddyd
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -402,6 +427,7 @@ VALUES
  InstructorID: 0900000003 - Manuela Casagranda
  TA : 200100002 - Dimitri Alexandre Blaiddyd
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -412,6 +438,7 @@ VALUES
  InstructorID: 0900000003 - Manuela Casagranda
  TA : 200100001 - Claude von Riegan
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -422,6 +449,7 @@ VALUES
  InstructorID: 0900000004 - Shamir Nevrand
  TA : 200100002 - Dimitri Alexandre Blaiddyd
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -432,6 +460,7 @@ VALUES
  InstructorID: 0900000004 - Shamir Nevrand
  TA : 200100001 - Claude von Riegan
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -442,6 +471,7 @@ VALUES
  InstructorID: 0900000004 - Shamir Nevrand
  TA : 200100003 - Edelgard von Hresvelg
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -452,6 +482,7 @@ VALUES
  InstructorID: 0900000005 - Cassandra Charon
  TA : 200100001 - Claude von Riegan 
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -462,6 +493,7 @@ VALUES
  InstructorID: 0900000005 - Cassandra Charon
  TA : 200100002 - Dimitri Alexandre Blaiddyd
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -472,6 +504,7 @@ VALUES
  InstructorID: 0900000005 - Cassandra Charon
  TA : 200100003 - Edelgard von Hresvelg
 */
+
 INSERT INTO Course
 (CourseNo, CourseName, NoOfStudents, InstructorID, TASSN)
 VALUES
@@ -1031,6 +1064,7 @@ VALUES
  Teaches -- CourseNo : 3300002 - Intro to Prob Theory
  Teaches -- CourseNo : 3300003 - Computer Forensics
 */
+
 INSERT INTO Instructor
 (Title, InstructorID, InstructorName)
 VALUES
@@ -1041,6 +1075,7 @@ VALUES
  Teaches -- CourseNo : 3300005 - Critical Thinking
  Teaches -- CourseNo : 3300006 - Leadership and Management
 */
+
 INSERT INTO Instructor
 (Title, InstructorID, InstructorName)
 VALUES
@@ -1051,6 +1086,7 @@ VALUES
  Teaches -- CourseNo : 3300008 - Microbiology
  Teaches -- CourseNo : 3300009 - Argumentation
 */
+
 INSERT INTO Instructor
 (Title, InstructorID, InstructorName)
 VALUES
@@ -1061,6 +1097,7 @@ VALUES
  Teaches -- CourseNo : 3300011 - Principles Of Marketing
  Teaches -- CourseNo : 3300012 - Investments
 */
+
 INSERT INTO Instructor
 (Title, InstructorID, InstructorName)
 VALUES
@@ -1071,6 +1108,7 @@ VALUES
  Teaches -- CourseNo : 3300014 - Venture Growth Strategies
  Teaches -- CourseNo : 3300015 - Corporate Entrepreneurship
 */
+
 INSERT INTO Instructor
 (Title, InstructorID, InstructorName)
 VALUES
