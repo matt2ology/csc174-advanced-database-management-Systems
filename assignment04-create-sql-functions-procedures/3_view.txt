@@ -1,5 +1,13 @@
 /* Creating views for tables TA, OnlineCourse, InPersonCourse */
 
+/* Drop VIEWs - make sure we start clean */
+
+DROP VIEW IF EXISTS TAView;
+DROP VIEW IF EXISTS OnlineCourseView;
+DROP VIEW IF EXISTS InPersonCourseView;
+DROP VIEW IF EXISTS Student_Grade_A;
+DROP VIEW IF EXISTS TA_Course;
+
 /* Create view for TAs */
 
 CREATE VIEW TAView As
