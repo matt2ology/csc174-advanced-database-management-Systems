@@ -14,15 +14,15 @@ CSC174 Advanced Database Management Systems
 
 Enhanced Entity-Relationship (EER) modeling; relational database design based on EER; SQL views; integrity constraints and triggers; stored procedures and functions; database programming techniques; query processing and optimization; transactions concurrency and recovery techniques; relational decomposition and normalization algorithms; database schema and data security.
 
-## Hw 1 : Mapping EER Diagram
+## [Hw 1 : Mapping EER Diagram](assignment01-mapping-eer-diagram)
 
 - [Assignment 01 Report](assignment01-mapping-eer-diagram\assignment01-submission.pdf)
 
-## Hw 2 : Mapping EER into Relational Model
+## [Hw 2 : Mapping EER into Relational Model](assignment02-mapping-eer-to-relational-model)
 
 - [Assignment 02 Report](assignment02-mapping-eer-to-relational-model\assignment02-submission.pdf)
 
-## Hw 3 : Creating tables, views, and populating the database
+## [Hw 3 : Creating tables, views, and populating the database](assignment03-create-tables-views)
 
 - [Assignment 03 Report](assignment03-create-tables-views/assignment03-submission.pdf)
 - [Create Table SQL File](assignment03-create-tables-views\1_create_table.sql)
@@ -30,7 +30,7 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 - [Create View SQL File](assignment03-create-tables-views\2_populate_db.txt)
 - [Drop All Tables and Views SQL File](assignment03-create-tables-views\4_drop.sql)
 
-## Hw 4 : Creating SQL Functions and Procedures
+## [Hw 4 : Creating SQL Functions and Procedures](assignment04-create-sql-functions-procedures)
 
 - [Assignment 04 Report](assignment04-create-sql-functions-procedures\assignment04-submission.pdf)
 - [Create Table SQL File](assignment04-create-sql-functions-procedures\1_create_table.sql)
@@ -40,7 +40,7 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 - [Create Procedures SQL File](assignment04-create-sql-functions-procedures\5_proc.sql)
 - [Drop All Tables and Views SQL File](assignment04-create-sql-functions-procedures\6_drop_all.sql)
 
-## Hw 5 : Creating Triggers in SQL and Functional Dependencies
+## [Hw 5 : Creating Triggers in SQL and Functional Dependencies](assignment05-create-sql-triggers-functional-dependencies)
 
 - [Assignment 05 Report (part 1) - SQL Triggers](assignment05-create-sql-triggers-functional-dependencies/4_result.pdf)
 - [Create Table SQL File](assignment05-create-sql-triggers-functional-dependencies/1_create_table.sql)
