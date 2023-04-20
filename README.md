@@ -46,3 +46,4 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 - [Create Table SQL File](assignment05-create-sql-triggers-functional-dependencies/1_create_table.sql)
 - [Populate Database SQL File](assignment05-create-sql-triggers-functional-dependencies/2_populate_db.sql)
 - [Trigger SQL File](assignment05-create-sql-triggers-functional-dependencies/3_trigger.sql)
+- [Assignment 05 Report (part 2) - Functional Dependencies, Decomposition, 3rd Normal Forms, and BCNF](assignment05-create-sql-triggers-functional-dependencies/Assn5_part2.md)
