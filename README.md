@@ -24,7 +24,7 @@ Enhanced Entity-Relationship (EER) modeling; relational database design based on
 
 ## Hw 3 : Creating tables, views, and populating the database
 
-- [Assignment 03 Report]()
+- [Assignment 03 Report](assignment03-create-tables-views/assignment03-submission.pdf)
 - [Create Table SQL File](assignment03-create-tables-views\1_create_table.sql)
 - [Populate Database SQL File](assignment03-create-tables-views\2_populate_db.sql)
 - [Create View SQL File](assignment03-create-tables-views\2_populate_db.txt)
